@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="\css\tracker.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Mood Tracker</h1>
+    </header>
+
+    <section>
+      <h2>Track Your Mood</h2>
+
+      <div id="calendar"></div>
+
+      <div class="mood-picker">
+        <select id="mood">
+          <option value="happy">😊 Happy</option>
+          <option value="neutral">😐 Neutral</option>
+          <option value="sad">😢 Sad</option>
+          <option value="stressed">😡 Stressed</option>
+        </select>
+
+        <button onclick="saveMood()">Save Mood</button>
+      </div>
+    </section>
+
+    <script src="\js\tracker.js"></script>
+  </body>
+</html>

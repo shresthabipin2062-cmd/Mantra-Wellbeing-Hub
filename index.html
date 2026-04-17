@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="\css\style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Student Wellbeing Hub</title>
+</head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+  <div class="container">
+
+    <!-- Title -->
+    <a class="navbar-brand">Student Wellbeing Hub</a>
+
+    <!-- Mobile toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="checker.html">Check</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="tracker.html">Mood</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Take Control of Your Mental Wellbeing</h1>
+      <p>Simple tools to help you manage stress and feel better every day.</p>
+      <a href="checker.html"><button>Start Your Check</button></a>
+      
+      <div class="scroll-down">↓</div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section>
+      <h2>How This Website Helps You</h2>
+
+      <div class="grid">
+        <div class="card">
+          <img
+            src="\images\Understand you feelings.jpg"
+            alt="Student reflecting on feelings"
+          />
+          <h3>🧠 Understand your feelings</h3>
+          <p>
+            Take a moment to reflect on your emotions and gain a better
+            understanding of your mental wellbeing.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="\images\Mood Tracking.jpg" alt="Mood tracking chart" />
+          <h3>📊 Track your mood</h3>
+          <p>Record your mood daily and discover patterns over time.</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="\images\Reducing Stress.jpg"
+            alt="Person relaxing and breathing calmly"
+          />
+          <h3>🧘 Reduce stress</h3>
+          <p>Use simple breathing techniques to calm your mind and body.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+      <h2 class="stats-title">Why Students Love This</h2>
+
+      <div class="stats-container">
+        <div class="stat">
+          <h2>5</h2>
+
+          <p>Daily check-in</p>
+        </div>
+
+        <div class="stat">
+          <h2>100%</h2>
+          <p>Private & Secure</p>
+        </div>
+
+        <div class="stat">
+          <h2>Simple</h2>
+          <p>Easy to use tools</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Explore Your Tools</h2>
+      <p>Use our tools to understand and improve your wellbeing.</p>
+
+      <div class="feature-links">
+
+  <a href="checker.html" class="feature-card">
+    <img src="\images\Mental check.jpg" alt="Mental health check">
+    <h3>Mental Health Check</h3>
+  </a>
+
+  <a href="tracker.html" class="feature-card">
+    <img src="\images\mood tracker.jpg" alt="Mood tracker chart">
+    <h3>Mood Tracker</h3>
+  </a>
+
+  <a href="#breathing" class="feature-card">
+    <img src="\images\breath taking.jpg" alt="Breathing exercise">
+    <h3>Breathing Exercise</h3>
+  </a>
+
+</div>
+      </div>
+    </section>
+
+    <!-- BREATHING -->
+   <section id="breathing" class="text-center py-5">
+  <h2>Breathing Exercise</h2>
+  <p id="instruction">Press start to begin</p>
+
+  <div id="circle"></div>
+
+  <button id="startBtn" class="btn btn-primary mt-3">Start</button>
+</section>    
+
+    <footer>
+      <p>© Mantra Wellbeing Hub</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="\js\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

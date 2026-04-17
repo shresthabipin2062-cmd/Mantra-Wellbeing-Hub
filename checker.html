@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mental Health Check</title>
+    <link rel="stylesheet" href="\css\checker.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Mental Health Check</h1>
+    </header>
+
+    <section>
+      <p>This short check helps you reflect on your wellbeing.</p>
+      <h2 id="question"></h2>
+
+      <div id="answers">
+        <button onclick="answer('yes')">Yes</button>
+        <button onclick="answer('sometimes')">Sometimes</button>
+        <button onclick="answer('no')">No</button>
+      </div>
+
+      <p id="resultText"></p>
+    </section>
+
+    <script src="\js\checker.js"></script>
+  </body>
+</html>
